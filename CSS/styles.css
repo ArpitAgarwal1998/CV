@@ -1,0 +1,45 @@
+body{
+  background-color: #f8b195;
+}
+hr{
+  border-style: None;
+  border-top-style: dotted;
+  border-width:6px;
+  width: 10%;
+  border-color: grey;
+}
+h1{
+  color: #66BFBF;
+
+}
+h3{
+  color: #4A69BB;
+}
+.skills{
+  border: 3px solid black;
+  border-collapse: collapse;
+  border-spacing: 30px;
+  letter-spacing: 1px;
+  width: 50%;
+}
+
+.skills thead{
+  background-color: #a7d7c5;
+  font-family: 'ALGERIAN';
+  letter-spacing: 2px;
+}
+
+.skills tbody{
+  font-family: cursive;
+}
+
+th,td{
+  padding: 1%;
+}
+
+.skills tbody tr:nth-child(odd){
+  background-color: #e3f6f5;
+}
+.skills tbody tr:nth-child(even){
+  background-color: #ffffff;
+}
